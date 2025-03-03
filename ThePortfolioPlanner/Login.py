@@ -1,10 +1,10 @@
-import tkinter as tk  # Importing the tkinter library for GUI
-import customtkinter  # Importing a custom tkinter module
-from PIL import ImageTk, Image  # Importing modules for image handling
-import sqlite3  # Importing SQLite for database operations
-import hashlib  # Importing hashlib for password hashing
-from subprocess import call  # Importing call for subprocess management
-from tkinter import messagebox  # Importing messagebox for displaying messages
+import tkinter as tk 
+import customtkinter  
+from PIL import ImageTk, Image  
+import sqlite3 
+import hashlib  
+from subprocess import call 
+from tkinter import messagebox
 
 # Set appearance mode to dark mode and green color theme
 customtkinter.set_appearance_mode("dark")
