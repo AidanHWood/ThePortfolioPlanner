@@ -1,13 +1,13 @@
 # Required python imports
-import os  # Module providing a portable way of using operating system-dependent functionality
-import customtkinter  # Custom module for creating customized Tkinter widgets
-import sqlite3  # Module providing a lightweight disk-based database
-import hashlib  # Module providing secure hash and digest algorithms
-from tkinter import messagebox  # Module for creating message boxes in Tkinter
-import tkinter as tk  # Standard Python interface to the Tk GUI toolkit
-from subprocess import call  # Module allowing the spawning of new processes
-import secrets  # Module for generating cryptographically strong random numbers
-from PIL import ImageTk, Image  # Module for opening, manipulating, and saving many different image file formats
+import os  
+import customtkinter  
+import sqlite3  
+import hashlib 
+from tkinter import messagebox 
+import tkinter as tk
+from subprocess import call 
+import secrets  
+from PIL import ImageTk, Image
 
 class RealEstateApp:
     # Real estate class 
