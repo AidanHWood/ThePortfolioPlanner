@@ -1,20 +1,17 @@
-# Importing necessary imports for GUI development, operating system interaction, and Google authentication process.
-
-import os  # Operating system functionality.
-import pytz  # Time zone management.
-import tkinter as tk  # GUI development.
-from tkinter import (  # Specific GUI components.
-messagebox, Scrollbar, ttk
-)
-from google_auth_oauthlib.flow import InstalledAppFlow  # Google authentication.
-from googleapiclient.discovery import build  # Google API interaction.
-from google.oauth2.credentials import Credentials  # Google credentials handling.
-from google.auth.transport.requests import Request  # HTTP requests with credentials.
-from datetime import datetime, timedelta  # Date and time manipulation.
-from tkcalendar import DateEntry  # Calendar widget for tkinter.
-from subprocess import call  # Executing system commands.
-import sqlite3  # SQLite database management.
-import customtkinter as ctk  # Custom tkinter appearance.
+# Importing necessary imports for GUI development, operating system interaction, and Google auth processes.
+import os  
+import pytz 
+import tkinter as tk
+from tkinter import (messagebox, Scrollbar, ttk)
+from google_auth_oauthlib.flow import InstalledAppFlow  
+from googleapiclient.discovery import build  
+from google.oauth2.credentials import Credentials
+from google.auth.transport.requests import Request 
+from datetime import datetime, timedelta 
+from tkcalendar import DateEntry  
+from subprocess import call  
+import sqlite3 
+import customtkinter as ctk  
 
 
 #required Google scopes
@@ -238,7 +235,7 @@ class GoogleCalendarApp(ctk.CTk):
         start_datetime_utc = self.convert_to_utc(start_datetime)
         end_datetime_utc = self.convert_to_utc(end_datetime)
       
-      #dictionary of the foramt of the event for google calendar  
+      #dictionary format for google calendar events
         event = {
             'summary': event_title,
             'start': {
