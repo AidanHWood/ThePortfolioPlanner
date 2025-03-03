@@ -1,10 +1,10 @@
-import sqlite3                # SQLite database management.
-import customtkinter as ctk     # Custom tkinter module for enhanced appearance.
-from tkinter import messagebox    # Message box functionality from tkinter.
-from subprocess import call   # Function for executing system commands.
-import tkinter as tk  # GUI development with tkinter.
-import hashlib# Cryptographic hash functions.
-import re  # Regular expressions for pattern matching.
+import sqlite3                
+import customtkinter as ctk     
+from tkinter import messagebox   
+from subprocess import call 
+import tkinter as tk  
+import hashlib
+import re 
 
 
 # Forgotten password class creation
