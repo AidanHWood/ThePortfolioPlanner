@@ -1,11 +1,11 @@
 # Import necessary modules
-import sqlite3  # For interacting with SQLite database
-from collections import defaultdict  # For creating defaultdict
-import customtkinter  # For customized appearance of tkinter widgets
-import matplotlib.pyplot as plt  # For creating plots
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg  # For embedding matplotlib figures in tkinter
-from subprocess import call  # For calling external commands
-from datetime import datetime, timedelta  # For working with dates and times
+import sqlite3  
+from collections import defaultdict  
+import customtkinter  
+import matplotlib.pyplot as plt  
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg 
+from subprocess import call 
+from datetime import datetime, timedelta  
 
 # Connect to the SQLite database
 conn = sqlite3.connect("userdata.db")
