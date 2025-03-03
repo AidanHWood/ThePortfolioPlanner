@@ -1,10 +1,10 @@
-import tkinter as tk     # GUI development with tkinter.
-from tkinter import messagebox  # Message box functionality from tkinter.
-import customtkinter           # Custom tkinter module for enhanced appearance.
-from tkcalendar import Calendar  # Calendar widget from tkcalendar for tkinter.
-from subprocess import call # Function for executing system commands.
-import sqlite3       # SQLite database management.
-from datetime import datetime    # Date and time functionality.
+import tkinter as tk    
+from tkinter import messagebox  
+import customtkinter          
+from tkcalendar import Calendar 
+from subprocess import call 
+import sqlite3      
+from datetime import datetime  
 
 
 # Sets color theme to green and color mode to dark
